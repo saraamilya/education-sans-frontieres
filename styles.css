@@ -1,0 +1,139 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #dffffd;
+    color: #000000;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Ajoutez une règle @media pour ajuster la taille du logo sur les téléphones */
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 200px; /* Réglez la largeur du logo selon vos préférences */
+  }
+}
+
+  .company-info {
+    text-align: center;
+    font-size: 20px; /* ou toute autre taille de police que vous souhaitez */
+  }
+  
+  .hero {
+    background-color: #193f33;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .hero-heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text {
+    text-align: center;
+    font-size: 25px; /* ou toute autre taille de police que vous souhaitez */
+  }
+  
+  .services {
+    background-color: #63a091;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px; /* ou toute autre taille de police que vous souhaitez */
+  }
+  
+  .service-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .service-list li {
+    margin-bottom: 10px;
+    font-size: 20px; /* ou toute autre taille de police que vous souhaitez */
+  }
+  
+  .appointments {
+    background-color: #dffffd;
+    padding: 50px 0;
+  }
+  
+  .appointments .container {
+    text-align: center;
+  }
+  
+  .appointments h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .appointments form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .appointments .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .appointments label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .appointments input[type="text"],
+  .appointments input[type="email"],
+  .appointments input[type="tel"],
+  .appointments textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .appointments textarea {
+    height: 100px;
+  }
+  
+  .appointments button[type="submit"] {
+    background-color: #63a091;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .appointments button[type="submit"]:hover {
+    background-color: #63a091;
+  }
+  
+  footer {
+    background-color: #193f33;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
